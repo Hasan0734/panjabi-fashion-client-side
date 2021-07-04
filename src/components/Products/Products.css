@@ -1,0 +1,16 @@
+.simple-card {
+  border: none;
+  background: #ffffff;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+}
+.simple-card img {
+  height: 350px;
+  border-radius: 10px;
+}
+.price{
+  font-size: 24px;
+  font-weight: 700;
+  color: #fd713d;
+  
+}

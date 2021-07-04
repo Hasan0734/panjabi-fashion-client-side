@@ -1,0 +1,11 @@
+.addProduct{
+    width: 50%;
+    margin: auto;
+    
+}
+.addProduct form{
+    padding: 30px
+}
+.addProduct form input{
+    margin-bottom: 15px;
+}

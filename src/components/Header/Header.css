@@ -1,0 +1,27 @@
+.nav-link{  
+    margin-right: 20px;
+    font-size: 21px;
+    color: black !important;
+}
+.main-btn{
+    background: #fd713d;
+    border-radius: 5px;
+    padding: 8px 18px;
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.navbar-brand{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 500;
+    font-size: 40px;
+    
+
+}
+.navbar-brand span{
+    color: #fd713d;
+}
+.user-name{
+    font-weight: bold;
+}
