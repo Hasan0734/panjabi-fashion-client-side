@@ -9,8 +9,9 @@ import TableRow from '@material-ui/core/TableRow';
 import Paper from '@material-ui/core/Paper';
 import DeleteIcon from '@material-ui/icons/Delete';
 import EditIcon from '@material-ui/icons/Edit';
-import { Button } from '@material-ui/core';
+import { Button, Grid } from '@material-ui/core';
 import EditProduct from '../EditProduct/EditProduct';
+import { Container } from '@material-ui/core';
 
 const StyledTableCell = withStyles((theme) => ({
   head: {
@@ -79,16 +80,21 @@ const ManageProduct = () => {
     return (
       <div>
     {editProduct.edit === false ?
+    
+   
      <TableContainer component={Paper}>
      <Table className={classes.table} aria-label="customized table">
        <TableHead>
+       
          <TableRow>
+         
            <StyledTableCell>Product Name</StyledTableCell>
            <StyledTableCell align="right">Price</StyledTableCell>
+         
            <StyledTableCell align="right">Quantity</StyledTableCell>
            <StyledTableCell align="center">Action</StyledTableCell>
-       
          </TableRow>
+       
        </TableHead>
        <TableBody>
          {products.map((product) => (
@@ -110,6 +116,8 @@ const ManageProduct = () => {
        </TableBody>
      </Table>
    </TableContainer>
+ 
+ 
     :
        <EditProduct editProduct = {editProduct}/>
        }

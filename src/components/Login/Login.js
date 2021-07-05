@@ -52,6 +52,7 @@ const Login = () => {
     setLoggedInUser(res);
     history.replace(from);
   };
+
   return (
     <div className="login-page container">
       <Header/>

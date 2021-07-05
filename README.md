@@ -12,4 +12,4 @@ This project  [live preview](https://panjabi-fashion.web.app/).
 3. Edit Product
 # Server side
 1. This website connected [Mongodb]() server.
-2. Backend server created on [Node](https://nodejs.org/), {Express Js](https://expressjs.com/)
+2. Backend server created on [Node](https://nodejs.org/), [Express Js](https://expressjs.com/)

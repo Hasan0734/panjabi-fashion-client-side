@@ -1,3 +1,6 @@
+.login-page{
+  min-height: 100vh;
+}
 .login-box {
     width: 100%;
     border: 1px solid gray;
@@ -41,8 +44,7 @@
     border: 1px solid #c3bfbf;
     border-radius: 30px;
   }
-  .btn-google {
-  }
+
   .btn-google img {
     width: 40px;
     margin-right: 70px;

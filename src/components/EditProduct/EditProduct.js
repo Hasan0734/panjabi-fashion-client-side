@@ -30,6 +30,10 @@ const EditProduct = ({editProduct}) => {
     };
   
     return (
+      <div className="row">
+        <div className="col-sm-8 col-12 m-auto">
+
+       
         <div className="card simple-card addProduct">
         <form onSubmit={handleSubmit(onSubmit)}>
             <h6>Update Product Name</h6>
@@ -44,6 +48,8 @@ const EditProduct = ({editProduct}) => {
           {errors.quantity && <span className="text-danger mb-2">Product Quantity is required digit</span>}
           <input className="btn main-btn" type="submit" value="Update"/>
         </form>
+      </div>
+      </div>
       </div>
     );
 };

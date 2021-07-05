@@ -48,7 +48,10 @@ const AddProduct = () => {
       });
   };
   return (
-    <>
+    <div className="row">
+      <div className="col-sm-8 col-12 m-auto">
+
+      
       <div className="card simple-card addProduct">
         <form onSubmit={handleSubmit(onSubmit)}>
           <h6>Product Name</h6>
@@ -93,7 +96,8 @@ const AddProduct = () => {
           <input className="btn main-btn" type="submit" />
         </form>
       </div>
-    </>
+      </div>
+    </div>
   );
 };
 

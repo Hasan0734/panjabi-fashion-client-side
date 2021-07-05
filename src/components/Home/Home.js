@@ -8,13 +8,15 @@ import './Home.css'
 
 const Home = () => {
 const [products, setProducts] = useState([]);
+
+
 useEffect(() => {
   fetch('https://rugged-olympic-25949.herokuapp.com/products')
   .then(res => res.json())
   .then(data => setProducts(data))
 }, [])
   return (
-    <>
+    <div className="container">
       <Header />
       <div className="mt-5">
         <div className="input-group search-area mt-4">
@@ -36,7 +38,7 @@ useEffect(() => {
             }
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

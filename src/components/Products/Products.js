@@ -20,7 +20,7 @@ const Products = (props) => {
         console.log(buyProduct)
     }
     return (
-            <div className="col-4 mt-4">
+            <div className="col-12 col-sm-4  mt-4">
                 <div className="card simple-card p-4">
               
               <img className="card-img-top" src={image} alt="" />
