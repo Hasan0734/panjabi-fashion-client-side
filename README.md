@@ -5,7 +5,8 @@ This project  [live preview](https://panjabi-fashion.web.app/).
 # Features
 1. Two login system google signin and create account email and password
 2. Handle clien side with server
-3.And handle your product with [admin](https://panjabi-fashion.web.app/) panel
+3. And handle your product with [admin](https://panjabi-fashion.web.app/) panel
+4. Mobie phone responsive
 # Admin panel Feature
 1. Manage Product
 2. Add Product
