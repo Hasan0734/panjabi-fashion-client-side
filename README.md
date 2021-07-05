@@ -1,4 +1,4 @@
-# I will created first project full stack website
+# I will created first full stack website
 
 This project  [live preview](https://panjabi-fashion.web.app/).
 
