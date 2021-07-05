@@ -3,13 +3,13 @@
 This project  [live preview](https://panjabi-fashion.web.app/).
 
 # Features
-Two login system google signin and create account email and password
-Handle clien side with server
-And handle your product with [admin](https://panjabi-fashion.web.app/) panel
+1. Two login system google signin and create account email and password
+2. Handle clien side with server
+3.And handle your product with [admin](https://panjabi-fashion.web.app/) panel
 # Admin panel Feature
-Manage Product
-Add Product
-Edit Product
+1. Manage Product
+2. Add Product
+3. Edit Product
 # Server side
-This website connected [Mongodb]() server.
-Backend server created on [Node](https://nodejs.org/), {Express Js](https://expressjs.com/)
+1. This website connected [Mongodb]() server.
+2. Backend server created on [Node](https://nodejs.org/), {Express Js](https://expressjs.com/)
